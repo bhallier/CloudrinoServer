@@ -1,4 +1,4 @@
-application: irrduinoserver
+application: cloudinologger
 version: 1
 runtime: python
 api_version: 1
@@ -16,7 +16,7 @@ handlers:
   login: admin
 
 - url: .*
-  script: irrduinoserver/main.py
+  script: server/main.py
   login: admin
 
 builtins:
